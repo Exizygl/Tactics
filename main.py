@@ -1,4 +1,3 @@
-from board import board
+from board import Board
 
-for row in board:
-    print("".join(row))
+board = Board()
